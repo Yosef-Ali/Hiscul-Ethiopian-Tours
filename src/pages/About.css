@@ -1,0 +1,287 @@
+.about-hero {
+  background: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600') center/cover no-repeat;
+}
+
+.page-hero {
+  position: relative;
+  height: 40vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+}
+
+.page-hero-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.page-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-hero-content p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+.about-intro {
+  padding: 5rem 0;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.intro-content h2 {
+  color: #1a472a;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-content p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.intro-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.our-values {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.our-values h2 {
+  text-align: center;
+  color: #1a472a;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.value-card h3 {
+  color: #1a472a;
+  margin-bottom: 0.75rem;
+}
+
+.value-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.why-choose {
+  padding: 5rem 0;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.why-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.why-content h2 {
+  color: #1a472a;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.why-items {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.why-item h4 {
+  color: #1a472a;
+  margin-bottom: 0.5rem;
+}
+
+.why-item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.team-section {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.team-section h2 {
+  text-align: center;
+  color: #1a472a;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.team-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.team-image {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1.5rem;
+}
+
+.team-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1a472a 0%, #2d5a3c 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.team-card h3 {
+  color: #1a472a;
+  margin-bottom: 0.25rem;
+}
+
+.team-role {
+  color: #f4c430;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.team-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.about-cta {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #1a472a 0%, #2d5a3c 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.about-cta h2 {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.about-cta p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #f4c430;
+  color: #1a472a;
+}
+
+.btn-primary:hover {
+  background: #d4a82a;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .intro-grid,
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-image {
+    order: -1;
+  }
+
+  .page-hero-content h1 {
+    font-size: 2.25rem;
+  }
+}

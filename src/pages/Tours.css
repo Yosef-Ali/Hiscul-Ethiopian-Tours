@@ -1,0 +1,129 @@
+.page-hero {
+  position: relative;
+  height: 40vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1600') center/cover no-repeat;
+}
+
+.page-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+}
+
+.page-hero-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.page-hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-hero-content p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+.tours-section {
+  padding: 4rem 0;
+}
+
+.tour-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 0.625rem 1.5rem;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #e0e0e0;
+}
+
+.filter-btn.active {
+  background: #1a472a;
+  color: #fff;
+}
+
+.tours-count {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.tours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.no-tours {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
+
+.tours-cta {
+  padding: 4rem 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.tours-cta h2 {
+  font-size: 2rem;
+  color: #1a472a;
+  margin-bottom: 1rem;
+}
+
+.tours-cta p {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #f4c430;
+  color: #1a472a;
+}
+
+.btn-primary:hover {
+  background: #d4a82a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .page-hero-content h1 {
+    font-size: 2.25rem;
+  }
+
+  .tours-grid {
+    grid-template-columns: 1fr;
+  }
+}
