@@ -1,0 +1,96 @@
+.tour-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tour-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.tour-card-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.tour-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.tour-card:hover .tour-card-image img {
+  transform: scale(1.05);
+}
+
+.tour-card-category {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #f4c430;
+  color: #1a472a;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.tour-card-content {
+  padding: 1.5rem;
+}
+
+.tour-card-title {
+  font-size: 1.25rem;
+  color: #1a472a;
+  margin-bottom: 0.75rem;
+}
+
+.tour-card-description {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.tour-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.tour-card-duration {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.tour-card-price {
+  color: #1a472a;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.tour-card-btn {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #1a472a;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.tour-card-btn:hover {
+  background: #2d5a3c;
+}
