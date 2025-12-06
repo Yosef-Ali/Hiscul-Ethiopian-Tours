@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Hiscul Ethiopian Tours - Discover the beauty and rich heritage of Ethiopia",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
